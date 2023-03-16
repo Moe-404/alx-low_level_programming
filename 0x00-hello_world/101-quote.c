@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-char message[]  = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+char m[]  = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 int length = 59;
 int fd = 1;
-write(fd, message, length);
+write(fd, m, length);
 return (1);
 }
