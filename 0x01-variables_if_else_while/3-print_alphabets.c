@@ -11,11 +11,11 @@ char c = 'a';
 char C = 'A';
 for (i = 0; i < 26; i++)
 {
-        putchar(c++);
+putchar(c++);
 }
 for (i = 0; i < 26; i++)
 {
-        putchar(C++);
+putchar(C++);
 }
 putchar('\n');
 return (0);
