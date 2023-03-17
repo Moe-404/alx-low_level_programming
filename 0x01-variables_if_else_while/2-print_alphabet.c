@@ -6,10 +6,12 @@
  */
 int main(void)
 {
+int i;
 char c = 'a';
-for (int i = 0; i < 26; i++)
+for (i = 0; i < 26; i++)
 {
         putchar(c++);
 }
+putchar('\n');
 return (0);
 }
