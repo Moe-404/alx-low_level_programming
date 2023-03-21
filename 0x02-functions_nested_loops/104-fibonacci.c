@@ -14,7 +14,7 @@ int main(void)
 	for (i = 3; i <= 100; i++)
 	{
 		count = first + second;
-		printf("%d", third);
+		printf("%d", count);
 
 		if (i < 100)
 			printf(", ");
