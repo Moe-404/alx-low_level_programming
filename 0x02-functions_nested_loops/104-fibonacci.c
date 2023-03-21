@@ -2,25 +2,28 @@
 /**
  * main - main function
  *
- * retyrn: aleays 0
+ * return: aleays 0
  */
 int main(void)
 {
-	int first = 1, second = 2, third;
+	int first = 1, second = 2, i;
 	int count = 0;
 
 	printf("%d, %d, ", first, second);
 
-	while (count < 96)
+	for (i = 3; i <= 100; i++)
 	{
-		third = first + second;
-		printf("%d, ", third);
+		count = first + second;
+		printf("%d", third);
+
+		if (i < 100)
+			printf(", ");
+
 		first = second;
-		second = third;
-		count++;
+		second = count;
 	}
-	third = first + second;
-	printf("%d\n", third);
+
+	printf("\n");
 
 	return (0);
 }
