@@ -1,7 +1,7 @@
 #include "main.h"
 /*
- *  _abs - function returns the absloute value of an integer.
- *
+ * _abs - function returns the absloute value of an integer.
+ * @n - integer
  *  return: 0
  */
 int _abs(int n)
