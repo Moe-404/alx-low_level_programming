@@ -1,6 +1,7 @@
 #include "main.h"
+#include "_putchar.c"
 /**
- * main -
+ * print_aphabet  -
  *
  * return: 0*/
 void print_alphabet(void)
