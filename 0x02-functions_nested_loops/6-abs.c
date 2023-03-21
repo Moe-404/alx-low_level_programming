@@ -1,7 +1,9 @@
 #include "main.h"
-/*
+
+/**
  * _abs - function returns the absloute value of an integer.
- * @n - integer
+ * @n: - integer to be checkd.
+ *
  * Description: This is a longer description.
  * Don't forget that a line should not exceed 80 characters.
  * But you're totally free to use several lines to properly
