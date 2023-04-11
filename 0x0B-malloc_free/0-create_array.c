@@ -6,7 +6,8 @@
  * @c: the intialzation of the array
  *
  * Return: Null or array.
-char *arr; */
+char *arr;
+ */
 
 char *create_array(unsigned int size, char c)
 {
