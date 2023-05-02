@@ -1,6 +1,5 @@
-### C-Programming
+# 0x13 more singly linked list
 
------------------
+0-print list
 
-### MORE SINGLY LINKED LISTS
-
+1-list int
